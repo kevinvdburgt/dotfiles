@@ -1,0 +1,16 @@
+[init]
+  defaultBranch = development
+
+[user]
+  name = Kevin van der Burgt
+  email = mail@kvdb.dev
+  signingkey = 9F7CA65167EDE828
+
+[commit]
+  gpgsign = true
+
+[core]
+	excludesFile = ~/.config/git/.gitignore
+
+[pull]
+	rebase = true
