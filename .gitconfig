@@ -10,7 +10,9 @@
   gpgsign = true
 
 [core]
-	excludesFile = ~/.config/git/.gitignore
+	excludesFile = ~/.config/git/gitignore
 
 [pull]
 	rebase = true
+[push]
+	default = simple
